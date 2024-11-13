@@ -400,6 +400,7 @@ a {
 }
 
 @media screen and (min-width: 1024){
+   
    .plan--popular {
       transform: scale(1.1);
   }
@@ -549,7 +550,7 @@ a {
 
  .callout__heading {
    color:#fff;
-   margin-top:o;
+   margin-top: 0;
    font-size: 3rem;
  }
 
@@ -600,7 +601,7 @@ a {
  }
 
  .collapsible--expanded .collapsible__chevron {
-   transform: (0);
+   transform: rotate(0);
  }
 
  .collapsible--expanded .collapsible__content {
